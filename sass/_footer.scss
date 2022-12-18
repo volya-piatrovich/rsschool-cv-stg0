@@ -1,5 +1,13 @@
 .footer {
   background-color: #fffad4;
+  &__container {
+    position: relative;
+  }
+  &__year {
+    position: absolute;
+    top: 23px;
+    left: 410px;
+  }
   &__row {
     margin: 8px 100px 17px 100px;
     display: flex;

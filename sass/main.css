@@ -293,6 +293,14 @@ body {
 .footer {
   background-color: #fffad4;
 }
+.footer__container {
+  position: relative;
+}
+.footer__year {
+  position: absolute;
+  top: 23px;
+  left: 410px;
+}
 .footer__row {
   margin: 8px 100px 17px 100px;
   display: flex;

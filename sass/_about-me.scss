@@ -1,0 +1,15 @@
+.about-me {
+  max-height: 204px;
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 90px 45px 90px;
+  }
+
+  &__text {
+    padding-top: 37px;
+    text-align: center;
+    line-height: 1.21;
+  }
+}

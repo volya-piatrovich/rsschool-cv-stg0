@@ -1,0 +1,15 @@
+.languages {
+  &__body {
+    padding: 32px 342px;
+  }
+  &__list {
+    padding-top: 32px;
+  }
+}
+.list-languages {
+  &__item {
+    padding-top: 5px;
+    list-style-type: circle;
+    line-height: 1.21;
+  }
+}

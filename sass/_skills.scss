@@ -1,0 +1,13 @@
+.skills {
+  max-height: 230px;
+  &__body {
+    padding: 25px 313px;
+  }
+  &__list {
+    padding-top: 40px;
+  }
+  &__item {
+    list-style-type: circle;
+    line-height: 1.21;
+  }
+}

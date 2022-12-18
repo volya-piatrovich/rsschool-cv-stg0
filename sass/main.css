@@ -197,3 +197,17 @@ body {
   text-align: center;
   line-height: 1.21;
 }
+
+.skills {
+  max-height: 230px;
+}
+.skills__body {
+  padding: 25px 313px;
+}
+.skills__list {
+  padding-top: 40px;
+}
+.skills__item {
+  list-style-type: circle;
+  line-height: 1.21;
+}

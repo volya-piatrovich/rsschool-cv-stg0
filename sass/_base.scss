@@ -1,0 +1,25 @@
+body {
+  background-color: #dbecff;
+  font-family: Montserrat;
+  color: 000000;
+  font-size: 17px;
+  font-weight: 400px;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex: 1 1 auto;
+}
+.container {
+  max-width: 870px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+.title {
+  font-weight: 500px;
+  font-size: 24px;
+  color: 000000;
+}

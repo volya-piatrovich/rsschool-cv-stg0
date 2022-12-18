@@ -5,7 +5,199 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./sass/main.css" />
-    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV Volha Piatrovich</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container container">
+          <nav class="header__menu menu-header">
+            <a class="menu-header__link" href="#cont">contacts</a>
+            <a class="menu-header__link" href="#about">about me</a>
+            <a class="menu-header__link" href="#skil">skills</a>
+            <a class="menu-header__link" href="#code">code example</a>
+            <a class="menu-header__link" href="#educ">education</a>
+            <a class="menu-header__link" href="#lang">languages</a>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="contacts" id="cont">
+          <div class="contacts__container container">
+            <div class="contacts__body">
+              <div class="contacts__img">
+                <img src="./image/main.png" alt="photo of author" />
+              </div>
+              <div class="contacts__info">
+                <h1 class="contacts__title title">Volha Piatrovich</h1>
+                <ul class="contacts__list list-contacts">
+                  <li class="list-contacts__item">
+                    <a
+                      class="list-contacts__list"
+                      href="https://github.com/volya-piatrovich"
+                      >GitHub: volya-piatrovich
+                    </a>
+                  </li>
+                  <li class="list-contacts__item">
+                    <a
+                      class="list-contacts__list"
+                      href="mailto:petrovicholga17.05@gmail.com"
+                      >e-mail: petrovicholga17.05@gmail.com
+                    </a>
+                  </li>
+                  <li class="list-contacts__item">
+                    <a
+                      class="list-contacts__list"
+                      href="https://telegram.me/optrvch"
+                      >Telegram: @optrvch
+                    </a>
+                  </li>
+                  <li class="list-contacts__item">
+                    <a class="list-contacts__list" href="#"
+                      >Discord: volha(@volya-piatrovich)
+                    </a>
+                  </li>
+                  <li class="list-contacts__item">
+                    <a
+                      class="list-contacts__list"
+                      href="https://www.instagram.com/o.ptrvch/"
+                      >Instagram: o.ptrvch
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about-me" id="about">
+          <div class="about-me__container container">
+            <div class="about-me__body">
+              <h2 class="about-me__title title">About me</h2>
+              <div class="about-me__text">
+                I'm 21 years old. I'm currently working as a content manager,
+                but I strive to make some career change. I've been interested in
+                front-end for a while and now I'm aiming to gain skills and
+                experience in this area.
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skills" id="skil">
+          <div class="skills__container container">
+            <div class="skills__body">
+              <h2 class="skills__title">Skills</h2>
+              <ul class="skills__list list-skills">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS (SASS/SCSS, BEM)</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">Avocode</li>
+                <li class="skills__item">Figma</li>
+                <li class="skills__item">Photoshop</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="code-example" id="code">
+          <div class="code-example__container container">
+            <div class="code-example__body">
+              <h2 class="code-example__title title">Code example</h2>
+              <div class="code-example__code">
+                <code>
+                  function multiply(a, b){<br />
+                  return a * b<br />
+                  }
+                </code>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="education" id="educ">
+          <div class="education__container container">
+            <div class="education__body">
+              <h2 class="education__title">Education</h2>
+              <div class="education__items">
+                <div class="education__item item-edcation">
+                  <div class="item-edcation__icon">
+                    <img src="./image/icons/university.png" alt="university" />
+                  </div>
+                  <div class="item-edcation__text">
+                    School of business of Belarusian State University
+                  </div>
+                </div>
+                <div class="education__item item-edcation">
+                  <div class="item-edcation__icon">
+                    <img src="./image/icons/cap.png" alt="university-cap" />
+                  </div>
+                  <div class="item-edcation__text">
+                    Marketing (last year student)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="languages" id="lang">
+          <div class="languages__container container">
+            <div class="languages__body">
+              <div class="languages__title title"></div>
+              <ul class="languages__list list-languages">
+                <li class="list-languages__item">Belarusian (native)</li>
+                <li class="list-languages__item">Russian (native)</li>
+                <li class="list-languages__item">English (B2)</li>
+                <li class="list-languages__item">Polish (A1)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__row">
+            <div class="footer__contacts contacts-footer">
+              <div class="contacts-footer__body">
+                <div class="contacts-footer__link">
+                  <a href="https://github.com/volya-piatrovich"
+                    ><img
+                      class="contacts-footer__icon"
+                      src="./image/icons/github-mark.svg"
+                      alt="github-icon"
+                  /></a>
+                </div>
+                <div class="contacts-footer__link">
+                  <a href="mailto:petrovicholga17.05@gmail.com"
+                    ><img
+                      class="contacts-footer__icon"
+                      src="./image/icons/mail.png"
+                      alt="mail-icon"
+                  /></a>
+                </div>
+                <div class="contacts-footer__link">
+                  <a href="https://www.instagram.com/o.ptrvch/"
+                    ><img
+                      class="contacts-footer__icon"
+                      src="./image/icons/instagram.svg"
+                      alt="instagram-icon"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__rs-link rs-link">
+              <a href="https://rs.school/js/"
+                ><img
+                  class="rs-link__icon"
+                  src="./image/icons/rs_school.svg"
+                  alt="rs-school-icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

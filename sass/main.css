@@ -84,3 +84,96 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+body {
+  background-color: #dbecff;
+  font-family: Montserrat;
+  color: 0;
+  font-size: 17px;
+  font-weight: 400px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.container {
+  max-width: 870px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.title {
+  font-weight: 500px;
+  font-size: 24px;
+  color: 0;
+}
+
+.header {
+  background-color: #fffad4;
+}
+.header__container {
+  max-height: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header__menu {
+  padding: 17px 0px 17px 352px;
+  display: flex;
+  justify-content: space-around;
+  transition: color 0.2s ease-in, font-weight 0.2s ease-in;
+}
+
+.menu-header__link {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  flex: 0 1 auto;
+}
+.menu-header__link:hover {
+  color: #5b5b5b;
+}
+
+.contacts__body {
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 124px 43px 96px;
+}
+.contacts__img img {
+  height: 199px;
+  width: 199px;
+  border-radius: 50%;
+}
+.contacts__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contacts__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.33;
+}
+
+.list-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 115px;
+  transition: color 0.2s ease-in, font-weight 0.2s ease-in;
+}
+.list-contacts__list {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+}
+.list-contacts__list:hover {
+  color: #5b5b5b;
+}

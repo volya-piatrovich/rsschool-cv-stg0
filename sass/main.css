@@ -89,7 +89,7 @@ body {
   background-color: #dbecff;
   font-family: Montserrat;
   color: 0;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400px;
 }
 
@@ -113,6 +113,8 @@ body {
   font-weight: 500px;
   font-size: 24px;
   color: 0;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .header {
@@ -140,6 +142,9 @@ body {
   color: #5b5b5b;
 }
 
+.contacts {
+  max-height: 294px;
+}
 .contacts__body {
   display: flex;
   justify-content: space-between;
@@ -176,4 +181,19 @@ body {
 }
 .list-contacts__list:hover {
   color: #5b5b5b;
+}
+
+.about-me {
+  max-height: 204px;
+}
+.about-me__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 90px 60px 90px;
+}
+.about-me__text {
+  padding-top: 23px;
+  text-align: center;
+  line-height: 1.21;
 }

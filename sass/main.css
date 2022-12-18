@@ -117,6 +117,13 @@ body {
   line-height: 1.2;
 }
 
+.decor-line {
+  width: 649px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
 .header {
   background-color: #fffad4;
 }
@@ -273,5 +280,40 @@ body {
 }
 
 .footer {
-  display: none;
+  background-color: #fffad4;
+}
+.footer__row {
+  margin: 8px 100px 17px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__rs-link {
+  flex: 0 1 auto;
+}
+
+.contacts-footer {
+  margin-top: 10px;
+}
+.contacts-footer__body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.contacts-footer__link {
+  padding-left: 47px;
+  align-self: center;
+}
+.contacts-footer__link:first-child {
+  content: "";
+  padding-left: 0;
+}
+.contacts-footer__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.rs-link__icon {
+  width: 113px;
+  height: 40px;
 }

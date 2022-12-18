@@ -1,0 +1,18 @@
+.code-example {
+  max-height: 206px;
+  &__body {
+    padding: 29px 141px;
+  }
+
+  &__code-container {
+    margin-top: 20px;
+    width: 556px;
+    height: 94px;
+    border-radius: 14px;
+    background-color: #d9d9d9;
+  }
+  &__code-text {
+    font-weight: 500;
+    padding: 25px 175px;
+  }
+}

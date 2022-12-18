@@ -1,0 +1,26 @@
+.header {
+  background-color: #fffad4;
+  &__container {
+    max-height: 50px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__menu {
+    padding: 17px 0px 17px 352px;
+    display: flex;
+    justify-content: space-around;
+    transition: color 0.2s ease-in, font-weight 0.2s ease-in;
+  }
+}
+
+.menu-header {
+  &__link {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    flex: 0 1 auto;
+    &:hover {
+      color: #5b5b5b;
+    }
+  }
+}

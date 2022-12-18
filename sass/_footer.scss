@@ -1,0 +1,48 @@
+.footer {
+  background-color: #fffad4;
+  &__container {
+    position: relative;
+  }
+  &__year {
+    position: absolute;
+    top: 23px;
+    left: 410px;
+  }
+  &__row {
+    margin: 8px 100px 17px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__rs-link {
+    flex: 0 1 auto;
+  }
+}
+.contacts-footer {
+  margin-top: 10px;
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  &__link {
+    padding-left: 47px;
+    align-self: center;
+    &:first-child {
+      content: '';
+      padding-left: 0;
+    }
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+.rs-link {
+  &__icon {
+    width: 113px;
+    height: 40px;
+  }
+}

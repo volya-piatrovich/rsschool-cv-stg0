@@ -110,7 +110,7 @@ body {
 }
 
 .title {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 24px;
   color: 0;
   text-align: center;
@@ -190,10 +190,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 24px 90px 60px 90px;
+  padding: 24px 90px 45px 90px;
 }
 .about-me__text {
-  padding-top: 23px;
+  padding-top: 37px;
   text-align: center;
   line-height: 1.21;
 }
@@ -205,9 +205,73 @@ body {
   padding: 25px 313px;
 }
 .skills__list {
-  padding-top: 40px;
+  padding-top: 32px;
 }
 .skills__item {
+  padding-top: 5px;
   list-style-type: circle;
   line-height: 1.21;
+}
+
+.code-example {
+  max-height: 206px;
+}
+.code-example__body {
+  padding: 29px 141px;
+}
+.code-example__code-container {
+  margin-top: 20px;
+  width: 556px;
+  height: 94px;
+  border-radius: 14px;
+  background-color: #d9d9d9;
+}
+.code-example__code-text {
+  font-weight: 500;
+  padding: 25px 175px;
+}
+
+.education {
+  max-height: 166px;
+}
+.education__body {
+  padding: 29px 159px;
+}
+.education__items {
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.education__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-edcation__icon img {
+  height: 50px;
+  width: 50px;
+}
+.item-edcation__text {
+  padding-top: 13px;
+  padding-left: 15px;
+  font-weight: 500;
+  line-height: 1.21;
+}
+
+.languages__body {
+  padding: 32px 342px;
+}
+.languages__list {
+  padding-top: 32px;
+}
+
+.list-languages__item {
+  padding-top: 5px;
+  list-style-type: circle;
+  line-height: 1.21;
+}
+
+.footer {
+  display: none;
 }

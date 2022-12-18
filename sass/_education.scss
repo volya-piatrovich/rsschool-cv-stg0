@@ -1,0 +1,31 @@
+.education {
+  max-height: 166px;
+  &__body {
+    padding: 29px 159px;
+  }
+  &__items {
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.item-edcation {
+  &__icon {
+    img {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  &__text {
+    padding-top: 13px;
+    padding-left: 15px;
+    font-weight: 500;
+    line-height: 1.21;
+  }
+}

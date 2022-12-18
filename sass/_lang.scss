@@ -1,11 +1,23 @@
-.skills {
-  max-height: 230px;
-  &__body {
-    padding: 25px 313px;
+.languages {
+  &__container {
   }
+
+  &__body {
+    padding: 32px 342px;
+  }
+
+  &__title {
+  }
+
   &__list {
     padding-top: 32px;
   }
+}
+.container {
+}
+.title {
+}
+.list-languages {
   &__item {
     padding-top: 5px;
     list-style-type: circle;

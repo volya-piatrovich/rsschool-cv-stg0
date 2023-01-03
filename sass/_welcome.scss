@@ -1,0 +1,50 @@
+.welcome {
+  font-family: 'Inter';
+  max-height: 532px;
+  background-color: #edf2ec;
+  &__body {
+    display: flex;
+  }
+
+  &__image {
+    margin: 55px 10px 55px 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 549px;
+    max-height: 340px;
+    margin: 98px 0 64px 201px;
+  }
+
+  &__tittle {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.1;
+    color: #717171;
+    span {
+      color: #499a18;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 1.75;
+    color: #636060;
+    margin: 42px 24px 48px 0;
+  }
+
+  &__button {
+    width: 158px;
+    height: 44px;
+    line-height: 1.25;
+    border: 2px solid #e06733;
+    border-radius: 10px;
+    padding: 11px 25px;
+    a {
+      color: #000000;
+      font-size: 16px;
+    }
+  }
+}

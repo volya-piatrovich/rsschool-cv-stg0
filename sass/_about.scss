@@ -1,0 +1,39 @@
+.about {
+  &__body {
+    max-height: 666px;
+    background-color: #fff;
+    display: flex;
+  }
+
+  &__content {
+    width: 605px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 161px 0 155px 0;
+  }
+
+  &__tittle {
+    max-width: 463px;
+    font-family: 'Inika';
+    font-size: 40px;
+    line-height: 1.3;
+    color: #499a18;
+    span {
+      color: #e06733;
+    }
+  }
+
+  &__text {
+    max-width: 615px;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 1.5;
+    color: #636060;
+    margin: 39px 0;
+  }
+
+  &__image {
+    margin: 93px 0 94px 153px;
+  }
+}

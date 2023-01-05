@@ -1,0 +1,50 @@
+.footer {
+  max-height: 130px;
+  background-color: #fff;
+  font-family: 'Inter';
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2.5;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+
+  &__copyright {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 169px;
+  }
+
+  &__rs {
+    margin: 1px 0 0 15px;
+    a {
+      color: #000000;
+      &:hover {
+        color: #717171;
+      }
+    }
+  }
+}
+.copyright-footer {
+  &__github {
+    a {
+      color: #000000;
+      &:hover {
+        color: #717171;
+      }
+    }
+  }
+}
+.social-media {
+  &__list {
+    width: 188px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+}

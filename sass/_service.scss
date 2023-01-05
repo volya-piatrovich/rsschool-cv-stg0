@@ -1,0 +1,96 @@
+.service {
+  max-height: 1300px;
+  background-color: #edf2ec;
+  &__body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__info {
+    display: flex;
+    max-width: 1007px;
+    margin-top: 40px;
+  }
+
+  &__title {
+    font-family: 'Inika';
+    font-size: 40px;
+    line-height: 1.3;
+    color: #499a18;
+    max-width: 306px;
+  }
+
+  &__butons {
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 21px 0 118px 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 330px;
+    border: 1px solid #e3e1d5;
+    border-radius: 20px;
+  }
+}
+
+.buttons-service {
+  &__body {
+    width: 161px;
+    height: 50px;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    padding: 12px 0;
+  }
+  button {
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Inika';
+    font-size: 20px;
+    line-height: 1.3;
+    color: #e06733;
+  }
+  &__gardens {
+    padding: 0 40px;
+  }
+
+  &__lawn {
+    padding: 0 54px;
+  }
+
+  &__planting {
+    padding: 0 40px;
+  }
+}
+.item-service {
+  margin-top: 63px;
+  &__image {
+    img {
+      border-radius: 20px 20px 0 0;
+    }
+  }
+
+  &__title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    color: #e06733;
+    margin-top: 10px;
+    align-self: center;
+  }
+
+  &__text {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 1.25;
+    color: #717171;
+    margin: 10px 30px 36px 31px;
+  }
+}

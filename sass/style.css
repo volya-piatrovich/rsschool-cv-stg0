@@ -167,13 +167,13 @@ h6 {
   max-height: 340px;
   margin: 98px 0 64px 201px;
 }
-.welcome__tittle {
+.welcome__title {
   font-weight: 700;
   font-size: 45px;
   line-height: 1.1;
   color: #717171;
 }
-.welcome__tittle span {
+.welcome__title span {
   color: #499a18;
 }
 .welcome__text {
@@ -207,14 +207,14 @@ h6 {
   flex-direction: column;
   margin: 161px 0 155px 0;
 }
-.about__tittle {
+.about__title {
   max-width: 463px;
   font-family: "Inika";
   font-size: 40px;
   line-height: 1.3;
   color: #499a18;
 }
-.about__tittle span {
+.about__title span {
   color: #e06733;
 }
 .about__text {
@@ -227,4 +227,274 @@ h6 {
 }
 .about__image {
   margin: 93px 0 94px 153px;
+}
+
+.service {
+  max-height: 1300px;
+  background-color: #edf2ec;
+}
+.service__body {
+  display: flex;
+  flex-direction: column;
+}
+.service__info {
+  display: flex;
+  max-width: 1007px;
+  margin-top: 40px;
+}
+.service__title {
+  font-family: "Inika";
+  font-size: 40px;
+  line-height: 1.3;
+  color: #499a18;
+  max-width: 306px;
+}
+.service__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 21px 0 118px 0;
+}
+.service__item {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 330px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+}
+
+.buttons-service__body {
+  width: 161px;
+  height: 50px;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  padding: 12px 0;
+}
+.buttons-service button {
+  background-color: transparent;
+  display: inline-block;
+  font-family: "Inika";
+  font-size: 20px;
+  line-height: 1.3;
+  color: #e06733;
+}
+.buttons-service__gardens {
+  padding: 0 40px;
+}
+.buttons-service__lawn {
+  padding: 0 54px;
+}
+.buttons-service__planting {
+  padding: 0 40px;
+}
+
+.item-service {
+  margin-top: 63px;
+}
+.item-service__image img {
+  border-radius: 20px 20px 0 0;
+}
+.item-service__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  color: #e06733;
+  margin-top: 10px;
+  align-self: center;
+}
+.item-service__text {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 1.25;
+  color: #717171;
+  margin: 10px 30px 36px 31px;
+}
+
+.prices {
+  background-color: #ffffff;
+  max-height: 560px;
+}
+.prices__body {
+  display: flex;
+  margin: 40px 0 115px 0;
+}
+.prices__list {
+  width: 332px;
+  height: 391.01px;
+  margin-right: 438px;
+}
+.prices__contact {
+  max-width: 452px;
+}
+
+.list-prices__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #000000;
+}
+.list-prices__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 41px;
+  width: 332px;
+  height: 282.01px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+.list-prices__item {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #edf2ec;
+  margin-top: 32px;
+}
+.list-prices__item:first-child {
+  content: "";
+  margin-top: 0px;
+}
+
+.item-list-prices__text {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  color: #000000;
+  margin: 16px 0 16px 40px;
+}
+
+.contact-price__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.25;
+  text-align: right;
+  color: #000000;
+}
+.contact-price__title span {
+  color: #499a18;
+}
+.contact-price__button {
+  display: inline-block;
+  width: 162px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  font-family: "Inika";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #e06733;
+  margin: 41px 0 0 289px;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+.contact-price__button:hover {
+  background-color: #e06733;
+  color: #ffffff;
+}
+.contact-price__image {
+  margin: 35px 0 0 300px;
+}
+
+.icon-prise__1 {
+  margin: 17px 40px 17px 89px;
+}
+
+.icon-prise__2 {
+  margin: 17px 40px 17px 63px;
+}
+
+.icon-prise__3 {
+  margin: 17px 40px 17px 71px;
+}
+
+.contacts {
+  max-height: 550px;
+  background-color: #edf2ec;
+}
+.contacts__body {
+  display: flex;
+}
+.contacts__image {
+  margin: 53px 113px 0 0;
+}
+.contacts__tittle {
+  font-family: "Inika";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.3;
+  color: #499a18;
+  margin: 60px 64px 439px 0;
+}
+.contacts__city {
+  display: flex;
+  width: 450px;
+  height: 50px;
+  background-color: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 148px 0 352px 0;
+}
+
+.city-contacts__text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  color: #717171;
+  margin: 5px 0 5px 25px;
+}
+.city-contacts__icon {
+  margin: 17px 55px 17px 334px;
+}
+
+.footer {
+  max-height: 130px;
+  background-color: #fff;
+  font-family: "Inter";
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2.5;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 169px;
+}
+.footer__rs {
+  margin: 1px 0 0 15px;
+}
+.footer__rs a {
+  color: #000000;
+}
+.footer__rs a:hover {
+  color: #717171;
+}
+
+.copyright-footer__github a {
+  color: #000000;
+}
+.copyright-footer__github a:hover {
+  color: #717171;
+}
+
+.social-media__list {
+  width: 188px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }

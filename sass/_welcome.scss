@@ -7,7 +7,7 @@
   }
 
   &__image {
-    margin: 55px 10px 55px 0;
+    margin: 55px 0px 55px 5px;
   }
 
   &__content {
@@ -23,6 +23,7 @@
     font-size: 45px;
     line-height: 1.1;
     color: #717171;
+    margin-left: 5px;
     span {
       color: #499a18;
     }
@@ -32,19 +33,26 @@
     font-size: 20px;
     line-height: 1.75;
     color: #636060;
-    margin: 42px 24px 48px 0;
+    margin: 45px 24px 48px 5px;
   }
 
   &__button {
+    display: inline-block;
+    background-color: transparent;
     width: 158px;
     height: 44px;
     line-height: 1.25;
     border: 2px solid #e06733;
     border-radius: 10px;
     padding: 11px 25px;
-    a {
-      color: #000000;
-      font-size: 16px;
+    margin-left: 5px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #000;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+    &:hover {
+      background-color: #e06733;
+      color: #ffffff;
     }
   }
 }

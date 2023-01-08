@@ -1,6 +1,6 @@
 .header {
   background-color: #edf2ec;
-  max-height: 134px;
+  max-height: 130px;
   &__body {
     font-family: inika;
     font-size: 16px;
@@ -31,7 +31,7 @@
   }
 
   &__items {
-    padding-right: 46px;
+    padding-right: 47px;
     transition: color 0.2s ease-in, font-weight 0.2s ease-in;
     &:last-child {
       content: '';
